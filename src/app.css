@@ -8,7 +8,8 @@ body {
   font-weight: bold;
 }
 .main {
-  height: 390px;
+  height: 420px;
+  width: 280px;
   background-color: white;
   padding: 15px;
   border-radius: 10px;
@@ -44,16 +45,26 @@ body {
 }
 .details {
   height: 45px;
-  width: 85%;
+  width: 80%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
 }
-.heading {
+.picture {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+.heading {
+  display: flex;
+  align-items: center;
   font-size: 15px;
-  gap: 5px;
+  gap: 15px;
+}
+.locating {
+  display: flex;
 }
 .upper-pic {
   width: 25px;
